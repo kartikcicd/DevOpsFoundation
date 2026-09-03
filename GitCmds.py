@@ -52,7 +52,11 @@
 # 15. git add .
 #     git add -p : "Patch" mode, allows you to interactively choose which changes to stage.  
 
+# 16. git rm <file-name>
 # git rm <file-name>  # Removes a file from the working directory and stages the removal for commit.
+
+# 17. git fetch
+
 
 # Git Hosting Platforms:
 # 1. GitHub: A web-based platform for hosting Git repositories, offering collaboration features like pull requests, issues, 
