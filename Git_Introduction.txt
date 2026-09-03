@@ -1,0 +1,43 @@
+# Git is a distribted VCS that is used to track changes in source code during software development. 
+# It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
+# Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+
+# -> Multiple developers can work on the same project without interfering with each other.
+# -> Revert to previous versions of a project or file.
+# -> Develop features in isolation from the main codebase.
+# -> Each developer has a full local copy of the entire project history, which allows for easy branching and merging.
+# -> Stores snapshots of the entire project, rather than just differences between files, 
+#    which allows for more efficient storage and retrieval of data.
+
+# Repository
+# 1. Local Repo: A copy of the project that is present on your local machine
+# 2. Remote Repo: A version of the project that is hosted on a remote server, such as GitHub, GitLab, or Bitbucket.
+
+# Commits
+# A commit is a snapshot of the project at a specific point in time. 
+# Each commit has a unique identifier (hash) and contains information about the changes made, the author, and the timestamp.
+
+# Branches
+# A branch is a separate line of development in a Git repository.
+# It allows developers to work on new features, bug fixes, or experiments without affecting the main codebase.
+# The default branch in a Git repository is usually called "main" or "master".
+# Main (or Master) Branch: The primary branch where the stable version of the project is maintained (Production ready code).
+# Feature Branch: Used for developing new features and bug fixes
+
+# Merging
+# Merging is the process of integrating changes from one branch into another.
+# It combines the changes made in different branches and creates a new commit that represents the merged state
+
+# Cloning
+# Cloning is the process of creating a local copy of a remote repository.
+
+# Pull and Push
+# Pull: The process of fetching and integrating changes from a remote repository into your local repository.
+# Push: The process of sending your local commits to a remote (Centralized) repository.
+
+# Three States of Git
+# Working Dir -> Staging Area (Commit)-> Local Repository -> (Push) Remote Repository
+# 1. Working Directory: The files and directories that you are currently working on.
+# 2. Staging Area: A temporary area where you can prepare changes before committing them.
+# 3. Local Repository: A local copy of the entire project history, including all commits and branches.
+# 4. Remote Repository: A version of the project that is hosted on a remote server, such as GitHub, GitLab, or Bitbucket.
