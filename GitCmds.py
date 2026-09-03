@@ -56,6 +56,16 @@
 # git rm <file-name>  # Removes a file from the working directory and stages the removal for commit.
 
 # 17. git fetch
+# git fetch origin  # Fetches changes from the remote repository without merging them into the current branch.
+
+# 18. git push -u origin <branch-name>
+# Uploads your commits to the remote branch.
+
+# 19. git push --tags
+# Pushes all local tags to the remote repository.
+
+# 20. git push --force
+# Forcefully pushes your changes to the remote repository, overwriting any conflicting changes.
 
 
 # Git Hosting Platforms:
