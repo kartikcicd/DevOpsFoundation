@@ -13,8 +13,10 @@
 
 # 4. git branch <branch-name>
 # Creates a new branch with the specified name.
+# main
+# feature-branch
 
-# 5. git checkout <branch-name>
+# 5. git checkout <branch-name> (switching branches)
 # Switches to the specified branch.
 
 # 6. git merge <branch-name>
@@ -49,7 +51,7 @@
 # 14. git version
 # Displays the installed Git version.
 
-# 15. git add .
+# 15. git add . -- adding all files in the current directory to the staging area.
 #     git add -p : "Patch" mode, allows you to interactively choose which changes to stage.  
 
 # 16. git rm <file-name>
@@ -67,10 +69,13 @@
 # 20. git push --force
 # Forcefully pushes your changes to the remote repository, overwriting any conflicting changes.
 
-
 # Git Hosting Platforms:
 # 1. GitHub: A web-based platform for hosting Git repositories, offering collaboration features like pull requests, issues, 
-# and project management tools.
+# and project management tools. (GitHub Actions for CI/CD, GitHub Pages for static site hosting, and GitHub Copilot for AI-assisted coding.)
 # 2. GitLab: A web-based DevOps platform that provides Git repository management, CI/CD pipelines, and project management features.
 # 3. Bitbucket: A web-based platform for hosting Git repositories, offering features like pull requests, issue tracking,
 # and CI/CD integration.
+
+# Working Dir -> Staging Area -> Local Repository -> Remote Repository
+# git init -> git add -> git commit -> git push
+# commit -> moving our code from staging to local repository. (git commit -m "commit message")
