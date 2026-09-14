@@ -1,5 +1,5 @@
 # 0. git init
-# Initializes a new Git repository in the current directory. 
+# Initializes a new Git local repository in the current working directory. 
 # Creates a .git subdirectory that contains all the necessary metadata for the repository.
 
 # 1. git status
@@ -71,7 +71,8 @@
 
 # Git Hosting Platforms:
 # 1. GitHub: A web-based platform for hosting Git repositories, offering collaboration features like pull requests, issues, 
-# and project management tools. (GitHub Actions for CI/CD, GitHub Pages for static site hosting, and GitHub Copilot for AI-assisted coding.)
+# and project management tools. (GitHub Actions for CI/CD, GitHub Pages for static site hosting, and GitHub Copilot for AI-assisted 
+# coding.)
 # 2. GitLab: A web-based DevOps platform that provides Git repository management, CI/CD pipelines, and project management features.
 # 3. Bitbucket: A web-based platform for hosting Git repositories, offering features like pull requests, issue tracking,
 # and CI/CD integration.
