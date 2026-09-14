@@ -21,8 +21,9 @@
 # A branch is a separate line of development in a Git repository.
 # It allows developers to work on new features, bug fixes, or experiments without affecting the main codebase.
 # The default branch in a Git repository is usually called "main" or "master".
-# Main (or Master) Branch: The primary branch where the stable version of the project is maintained (Production ready code).
-# Feature Branch: Used for developing new features and bug fixes
+# Main (or Master) Branch: The primary branch where the stable version of the project is maintained (Production ready code). (prod)
+# Feature Branch: Used for developing new features and bug fixes (dev, qa, staging, etc.). (development code, testing, bug fixes, etc.)
+# bugFix Branch -> main branch
 
 # Merging
 # Merging is the process of integrating changes from one branch into another.
